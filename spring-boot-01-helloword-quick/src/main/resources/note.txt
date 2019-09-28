@@ -1,0 +1,5 @@
+1、使用Spring Initializer快速创建Spring Boot项目
+2、配置文件值配置：
+        yml中
+        properties中
+3、@ConfigurationProperties与@Value的区别

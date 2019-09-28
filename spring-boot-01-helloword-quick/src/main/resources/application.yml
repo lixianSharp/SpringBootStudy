@@ -1,0 +1,33 @@
+#修改tomcat 的端口号为8081
+server:
+  port: 8081
+spring:
+  profiles:
+    active: prod  #激活prod环境
+---
+
+
+server:
+  port:8083
+spring:
+  profiles: dev
+---
+
+server:
+  port:8084
+spring:
+  profiles: prod
+
+#配置person的值
+#person:
+#   lastname: zhangsan
+#   age: 18
+#   boss: false
+#   birth: 2017/12/12
+#   maps: {k1: v1,k2: 12}
+#   lists:
+#     - lisi
+#     - zhaoliu
+#   dog:
+#     name: 小狗
+#     age: 2
